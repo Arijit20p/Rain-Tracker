@@ -35,7 +35,7 @@ if will_rain:
     message = client.messages.create(
     from_="+13125483660",
     body="It's raining. Remember to bring an umbrella",
-    to="+919123355190"
+    to="your phone number"
     )
     print(message.status)
 
