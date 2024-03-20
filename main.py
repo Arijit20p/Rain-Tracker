@@ -6,12 +6,12 @@ from details import account_sid,auth_token,api_key
 account_sid = account_sid
 auth_token = auth_token
 
-api_key = api_key
+Key = api_key
 OWN_ENDPOINT = "https://api.openweathermap.org/data/2.5/forecast"
 data_params = {
     "lat": 22.841150,
     "lon": 88.126373,
-    "appid": api_key,
+    "appid": Key,
     "cnt": 4
 
 }
