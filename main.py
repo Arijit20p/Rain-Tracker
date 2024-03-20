@@ -1,6 +1,5 @@
 import requests
 from twilio.rest import Client
-import os
 from details import account_sid,auth_token,api_key
 
 account_sid = account_sid
